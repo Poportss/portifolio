@@ -63,24 +63,6 @@
 
 <body>
 
-    <!-- Modal -->
-    <div class="modal fade" id="post" tabindex="-1" role="dialog" aria-labelledby="postLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="postLabel"></h4>
-                </div>
-                <div class="modal-body">
-                    <h2 class="text center">Loading&hellip;</h2>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <section class="cover-wrapper" id="index">
         <div class="cover-wrapper-inner">
@@ -92,10 +74,19 @@
                             Poportss</h3>
                         <nav>
                             <ul class="nav masthead-nav">
+                                <img src="img/Design sem nome.svg" alt="" srcset="" width="20" height="20" style="margin-top: 15px;">
+                                <select data-i18n-switcher class="locale-switcher">
+                                   
+                                    <option class="opitons-language" value="en">English</option>
+                                    <option class="opitons-language" value="pt">Português</option>
+                                    <option class="opitons-language" value="es">Spanish</option>
+                                    <option class="opitons-language" value="fr">French</option>
+                                </select>
                                 <li class="active"><a href="#" data-hide=".cover-wrapper">Home</a></li>
 
-                                <li><a href="project.html">Projects</a></li>
-                                <li><a href="contato.html">Contact</a></li>
+                                <li><a data-i18n-key="project" href="project.html">Projects</a></li>
+                                <li><a data-i18n-key="contact-li" href="contato.html">Contact</a></li>
+                                
                             </ul>
                         </nav>
                     </div>
@@ -103,33 +94,35 @@
 
                 <div class="masthead clearfix  d-xl-none d-md-none d-sm-block">
                     <div class="inner">
-                        <h3 class="masthead-brand"><img src="Design sem nome.svg" alt="Code"
+                        <h3 data-i18n-key="nickname" class="masthead-brand"><img src="Design sem nome.svg" alt="Code"
                                 class="img-responsive logo">
                             Poportss</h3>
                         <nav style="margin-left: 20%;">
                             <ul class="nav masthead-nav">
                                 <li class="active"><a href="#" data-hide=".cover-wrapper">Home</a></li>
-
-                                <li><a href="project.html">Projects</a></li>
-                                <li><a href="contato.html">Contact</a></li>
+                                <li><a data-i18n-key="project"  href="project.html" >Projects</a></li>
+                                <li ><a  data-i18n-key="contact"  href="contato.html">Contact</a></li>
+                                
                             </ul>
                         </nav>
                     </div>
                 </div>
 
-                <div class="inner cover mt-5">
+                <div class=" mt-5">
                     <img src="img/81190957.png" alt="" height="150px" width="150px" srcset=""
                         style="border-radius: 25px; margin-top:4rem">
-                    <h1 class="pt-5 cover-heading">Rafael Portela (Poportss)</h1>
-                    <p class="lead pt-4">I&apos;m a full stack developer at <br>kron Digital,<br>and a freelance web
+                    <h1 class="pt-5 cover-heading" data-i18n-key="name" >Rafael Portela (Poportss)</h1>
+                    <p class="lead pt-4" data-i18n-key="lead" >I&apos;m a full stack developer at <br>kron Digital,<br>and a freelance web
                         developer
                         in my spare time.
-                    <p><a href="contato.html" class="btn btn-lg btn-default mt-5">Contact me</a>
                     </p>
+                    <div>
+                    <a  type="button" href="/contato.html" class="btn btn-lg btn-default mt-5 col-2" data-i18n-key="contact" >Contact me</a>
+                    </div>
                 </div>
 
                 <div class="mastfoot">
-                    <div class="inner" style="margin-top: 8rem;">
+                    <div  style="margin-top: 8rem;">
                         <p>&copy; Poportss 2022</p>
                     </div>
                 </div>
@@ -142,5 +135,6 @@
 <script src="http://timothy.expert/js/bootstrap.min.js"></script>
 <script src="http://timothy.expert/js/highlight.pack.js"></script>
 <script src="./script.js"></script>
+<script src="./src/index.js"></script>
 
 </html>

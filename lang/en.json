@@ -1,0 +1,27 @@
+{
+    "nickname": "Poportss",
+    "name": "Rafael Portela",
+    "email-name":"name",
+    "email":"email",
+    "title-todo":"To do List",
+    "title-netflix":"Clone Netflix",
+    "title-multi-form":"Multi Step Form",
+    "title-calendar":"Calendar",
+    "title-dino":"Dino Game",
+    "title-lock":"Lockscreen",
+    "lead-lock":"This project was developed to make a screen lock to improve the practices with web development, use HTML, CSS, JavaScript",
+    "lead-dino":"In this project you will have the challenge of creating a copy of the dinosaur game, famous in Chrome for entertaining us when we are disconnected. In it we'll use HTML, CSS and JavaScript, covering in a simple way several important introductory concepts for web programming such as basic HTML tags, event handling, functions and manipulation of HTML elements using JavaScript, styling and basic animations with CSS",
+    "lead-calendar":"this project is intended to create a calendar to train JavaScript functions, and also to improve the notions of HTML and CSS",
+    "lead-multi-form":"This project was intended to create a multi-step form to understand the requested requests and to better understand it, HTML, CSS, Javascrpit were used in this project",
+    "lead-netflix":"This project was thought to clone Netflix's interface, as a form of training for recreating prototypes requested by clients. It aims to exercise the knowledge acquired in HTML, CSS, Javascript and logic.",
+    "lead-todo":"Consists in creating a to-do list to organize and prioritize tasks. It aims to exercise the knowledge acquired in HTML, CSS,Javascript and logic.",
+    "send-mensagem":"Send a message",
+    "View-project":"View project",
+    "lead": "I'm a full stack develop at Kron Digital and freelancer web develop",
+    "contact": "Get in touch",
+    "contact-li": "Get in touch",
+    "project": "Projects",
+    "questions":"Have questions or comments?"
+    
+
+}

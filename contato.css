@@ -14,7 +14,23 @@ html {
 body {
     margin: 0
 }
+.locale-switcher{
+	margin-right: 2rem;
+	background-color: transparent;
+	border: none;
+}.locale-switcher:focus-visible{
+	background-color: transparent;
+	outline: 0;
+}
 
+.opitons-language{
+	background-color: #428bca;
+	border: none;
+}
+opitons-language:hover{
+	background-color: rgb(255, 0, 0);
+	border: none;
+}
 article,
 aside,
 details,

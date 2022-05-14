@@ -10,7 +10,24 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
+.locale-switcher:focus-visible{
+	background-color: transparent;
+	outline: 0;
+}
 
+.locale-switcher{
+	margin-right: 2rem;
+	background-color: transparent;
+	border: none;
+}
+.opitons-language{
+	background-color: #428bca;
+	border: none;
+}
+opitons-language:hover{
+	background-color: rgb(255, 0, 0);
+	border: none;
+}
 body {
     margin: 0
 }

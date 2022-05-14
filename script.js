@@ -1,4 +1,5 @@
 
+
     // onclick of one of the navigation buttons
     $( "a[data-hide]" ).on( "click", function() {
       $(window).scrollTop(0);
